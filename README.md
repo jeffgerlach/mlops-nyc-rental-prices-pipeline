@@ -22,7 +22,7 @@ In this project you will build such a pipeline.
 ## Pipeline Graph View
 ![Pipeline](pipeline.png?raw=true)
 
-## Using MLFlow to Run the Pipeline
+## Using MLFlow to Run the Pipeline in local development
 
 Make sure you are in the root directory in your terminal.
 
