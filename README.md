@@ -50,3 +50,8 @@ The pipeline utilizes hydra to pass in default parameters (stored in the top lev
   -P steps=basic_cleaning,train_random_forest \
   -P hydra_options="modeling.random_forest.max_features=0.5 etl.min_price=50"
 ```
+
+To run directly from the Github repository using MLFlow (hydra options can still be overridden):
+```bash
+> mlflow run https://github.com/jeffgerlach/mlops-nyc-rental-prices-pipeline.git -v 1.0.2"
+```
